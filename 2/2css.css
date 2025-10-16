@@ -1,0 +1,30 @@
+*{
+font-family: 'comic-sans MS', cursive;
+}
+.product-card{
+max-width: 300px;
+box-shadow:  0 2px 10px rgba(0,0,0,0.1)
+}
+#obrazek{
+border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+border: 2px solid #ddd;
+background-color: #ddd;
+width: inherit;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#cena{
+border: 2px solid white;
+border-bottom-left-radius: 12px;
+border-bottom-right-radius: 12px;
+height: 200px;
+width: inherit;
+}
+.price{
+font-weight: bold;
+color: #e74c3c;
+font-size: 24px;
+}

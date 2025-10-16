@@ -1,0 +1,28 @@
+*{
+font-family: 'comic sans MS', cursive;
+}
+#galeria{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+width: 750px;
+}
+.photo{
+background-color: #ccc;
+border-radius: 5px;
+height: 200px;
+width: 31%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+img{
+flex: 1 1 calc(33.333% - 20px);
+height: 200px;
+border-radius: 5px
+
+}
+.photo:hover{
+transform: scale(1.05);
+transition: transform 0.3s;
+}
