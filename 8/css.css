@@ -1,0 +1,36 @@
+*{
+font-family: 'comic sans MS', cursive;
+}
+h1{
+text-align: center;
+color: rgb(144, 144, 255);
+}
+a{
+color: rgb(156, 156, 156);
+display: block;
+margin-bottom: 8px;
+}
+#glowna{
+background-color: #2c3e50;
+gap: 30px;
+color: white;
+padding: 50px 30px;
+display: flex;
+flex-wrap: wrap;
+}
+footer{
+color: rgb(156, 156, 156);
+}
+hr{
+color: rgb(156, 156, 156);
+width: 100%;
+margin: 20px 0;
+border: none;
+border-top: 1px solid rgb(156, 156, 156);
+}
+#produkty, #wsparcie, #onas{
+width: 30%;
+}
+#kontakt{
+width: 100%;
+}
