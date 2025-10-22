@@ -1,0 +1,21 @@
+*{
+font-family: 'comic sansMS', cursive;
+}
+#aaa{
+color: rgb(102,126,234);
+}
+header{
+
+}
+.hero{
+background: linear-gradient(to right, #4a90e2, #8e44ad);
+color: white;
+padding: 20px;
+
+}
+button{
+background-color: white;
+color: rgb(102,126,234);
+border-radius: 12px;
+border: white, solid 2px;
+}
